@@ -1,0 +1,10 @@
+.change{
+    width: 100%;
+}
+.change input{
+    display: inline-block;
+}
+.change button{
+    /* float: right;
+    display: inline-block; */
+}

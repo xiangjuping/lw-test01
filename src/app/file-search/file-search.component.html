@@ -1,0 +1,13 @@
+
+<div id="search-component">
+    <label for="search-box">搜索框</label>
+    <input #searchBox id="search-box" (input)="search(searchBox.value)" />
+  
+    <ul class="search-result">
+      <li *ngFor="let file of files$ | async" >
+        <a routerLink="/detail/{{file.id}}">
+          {{file.name}}
+        </a>
+      </li>
+    </ul>
+  </div>

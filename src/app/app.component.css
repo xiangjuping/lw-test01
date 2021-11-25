@@ -1,0 +1,10 @@
+.select{
+  margin: auto;
+  width: 70%;
+  border: 1px solid black;
+  padding: 10px;
+
+}
+.search{
+  margin-left: 20px;
+}
